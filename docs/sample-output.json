@@ -1,0 +1,124 @@
+[
+  {
+    "website": {
+      "id": 2,
+      "websiteUuid": "a2f36506-67a3-4c47-b2d2-eaf52de9039f",
+      "userId": 1,
+      "name": "www.teletron.me",
+      "domain": "www.teletron.me",
+      "shareId": null,
+      "createdAt": "2023-02-11T06:50:17.000Z"
+    },
+    "start": "2023-03-18T06:48:10.598Z",
+    "end": "2023-03-25T06:48:10.598Z",
+    "stats": {
+      "pageviews": {
+        "value": 8,
+        "change": 8
+      },
+      "uniques": {
+        "value": 7,
+        "change": 7
+      },
+      "bounces": {
+        "value": 6,
+        "change": 6
+      },
+      "totaltime": {
+        "value": 3,
+        "change": 3
+      }
+    },
+    "metrics": {
+      "url": [
+        {
+          "x": "/",
+          "y": 6
+        },
+        {
+          "x": "/app",
+          "y": 1
+        },
+        {
+          "x": "/extensions",
+          "y": 1
+        }
+      ],
+      "referrer": [
+        {
+          "x": "",
+          "y": 6
+        },
+        {
+          "x": "https://t.co/",
+          "y": 1
+        }
+      ],
+      "browser": [
+        {
+          "x": "chrome",
+          "y": 3
+        },
+        {
+          "x": "ios",
+          "y": 2
+        },
+        {
+          "x": "firefox",
+          "y": 2
+        }
+      ],
+      "os": [
+        {
+          "x": "iOS",
+          "y": 2
+        },
+        {
+          "x": "Linux",
+          "y": 2
+        },
+        {
+          "x": "Windows 10",
+          "y": 1
+        },
+        {
+          "x": "Android OS",
+          "y": 1
+        },
+        {
+          "x": "Windows 7",
+          "y": 1
+        }
+      ],
+      "device": [
+        {
+          "x": "mobile",
+          "y": 3
+        },
+        {
+          "x": "laptop",
+          "y": 2
+        },
+        {
+          "x": "desktop",
+          "y": 2
+    /    }
+      ],
+      "country": [
+        {
+          "x": "US",
+          "y": 3
+        },
+        {
+          "x": "NL",
+          "y": 3
+        },
+        {
+          "x": "MX",
+          "y": 1
+        }
+      ],
+      "event": []
+    }
+  }
+]
