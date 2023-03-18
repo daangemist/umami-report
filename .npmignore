@@ -1,0 +1,9 @@
+src
+docs
+docker-compose.yml
+.prettierrc
+dev-config.json
+dev-output
+tsconfig.json
+.editorconfig
+.github

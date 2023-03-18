@@ -1,6 +1,6 @@
 {
   "name": "umami-report",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -19,7 +19,7 @@
     "webhook",
     "analytics"
   ],
-  "bin": "dist/index.js",
+  "bin": "bin/umami-report.js",
   "devDependencies": {
     "@tsconfig/node18-strictest": "^1.0.0",
     "@types/debug": "^4.1.7",

@@ -29,7 +29,7 @@ That's it! See [Configuration](#Configuration) for what to put in the configurat
 ## Configuration
 
 Check the [json-schema](src/configuration/validator.ts) and the [typescript type](src/types/index.ts) for the structure
-of your schema file.
+of your configuration file.
 
 A very basic sample:
 

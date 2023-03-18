@@ -37,6 +37,7 @@ async function main() {
       const data = await retrieveData();
       await sendData(data);
       console.log('Command completed successfully.');
+      process.exit(0);
     } catch (error) {
       debug('There was an error retrieving the data. %o', error);
       console.log('There was an retrieving the data.', error instanceof Error ? error.message : error);

@@ -6,10 +6,12 @@ import { fetchMetrics } from './fetch-metrics';
 import { fetchSites } from './fetch-sites';
 import { fetchStats } from './fetch-stats';
 
+const ALL_METRICS = ['url', 'referrer', 'browser', 'os', 'device', 'country', 'event'] as const;
+
 export async function getMetricsObject(token: string, website: Website) {
   const configuration = getConfiguration();
   const metrics = await Promise.all(
-    (configuration.metrics ?? []).map(async (metric) => {
+    (configuration.metrics ?? ALL_METRICS).map(async (metric) => {
       return {
         [metric]: await fetchMetrics(token, website, metric),
       };
