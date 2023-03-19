@@ -1,6 +1,6 @@
 {
   "name": "umami-report",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
@@ -19,6 +19,14 @@
     "webhook",
     "analytics"
   ],
+  "homepage": "https://github.com/daangemist/umami-report",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daangemist/umami-report.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daangemist/umami-report/issues"
+  },
   "bin": "bin/umami-report.js",
   "devDependencies": {
     "@tsconfig/node18-strictest": "^1.0.0",
